@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+body ::-moz-selection {
+  background-color: #c7a17a;
+  color: #fff;
+}
+body ::selection {
+  background-color: #c7a17a;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif;
+  color: #30271c;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.coffee-about .container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+.coffee-about .container .container-head {
+  text-align: center;
+  margin: 50px 0;
+}
+.coffee-about .container .container-head P {
+  color: #c7a17a;
+  font-size: 18px;
+  margin: 20px 0;
+}
+.coffee-about .container .container-head h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.coffee-about .container .cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.coffee-about .container .cards .card {
+  width: 100%;
+  padding: 10px 15px;
+}
+@media (min-width: 400px) {
+  .coffee-about .container .cards .card {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .coffee-about .container .cards .card {
+    width: 33.3333%;
+  }
+}
+.coffee-about .container .cards .card .card-image {
+  overflow: hidden;
+}
+.coffee-about .container .cards .card .card-image img {
+  width: 100%;
+  height: 100%;
+}
+.coffee-about .container .cards .card .card-content {
+  padding: 10px 0;
+}
+.coffee-about .container .cards .card .card-content h2 {
+  font-size: 22px;
+}
+.coffee-about .container .cards .card .card-content h2 span {
+  color: #c7a17a;
+  font-size: 60px;
+  padding-right: 15px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Merriweather", serif;
+}
+.coffee-about .container .cards .card .card-content p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 25px;
+  padding: 10px 0;
+}
+.coffee-about .container .cards .card .card-content a {
+  color: #c7a17a;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.coffee-about .container .cards .card .card-content a i {
+  font-size: 14px;
+  padding: 0 5px;
+  transition: 0.5s ease;
+}
+.coffee-about .container .cards .card .card-content a:hover i {
+  padding: 0 15px;
+}/*# sourceMappingURL=style.css.map */
